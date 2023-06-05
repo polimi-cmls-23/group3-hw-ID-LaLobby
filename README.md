@@ -14,7 +14,10 @@ The communication between the different units takes place by means of the OSC pr
 The Microsoft Kinect V2, is a sensor able to perform real-time gesture recognition and body-skeletal detection. 
 This is done by using a color map and a depth map, captured respectively by an RGB camera and an infrared projector.
 The data collected by the Kinect is processed by TouchDesigner before being sent via OSC messages to SuperCollider and Processing.
-In particular, hands position are normalized with respect to the arm length and the position of the user, and are then mapped in order to obtain smooth values between 0 and 1.
+In particular, hands position are normalized with respect to the arm length and the position of the user, and are then mapped in order to obtain smooth values between 0 and 1. 
+<p align="center">
+  <img src="/imgs/kinect.JPG" width=65% margin-top="15%">
+</p>
 
 ## Computer Music Unit
 Supercollider is responsible for the sound processing.
@@ -28,6 +31,7 @@ The graphical feedback is realized in Processing and it's implemented as to visu
 Two sliders are responsible of setting the thresholds for the visualizer.
 The other sliders show the data affecting the sound.
 Finally two boxes are responsible of choosing the effects.
+Also, a pop-up has been added to note the performer when the loop is recording, playing or being overdubbed.
 
 <p align="center">
   <img src="/imgs/GUI_imag.png" width=65% margin-top="15%">
