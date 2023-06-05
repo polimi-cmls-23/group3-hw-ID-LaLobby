@@ -7,5 +7,8 @@ The implemented computer music system allows the performer to manage the process
   <img src="/imgs/architecture.jpg" width=65% margin-top="15%">
 </p>
 
+## Communication Protocol
+The communication between the different units takes place by means of the OSC protocol, as illustrated in the diagram above.
+
 ### Group members
 Nicolò Chillè, Rocco Scarano, Enrico Dalla Mora, Federico Caroppo
